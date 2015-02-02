@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
 
 gem 'devise'
@@ -11,7 +10,7 @@ gem 'figaro'
 gem 'kaminari'
 gem 'kaminari-bootstrap'
 
-# Use SCSS for stylesheets
+
 gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass', '~> 3.1.1'
 
@@ -54,3 +53,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+ruby '2.0.0'
