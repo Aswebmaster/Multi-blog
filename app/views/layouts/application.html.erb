@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Multi-blog</title>
+    <title>Multi - blog</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
@@ -15,9 +15,7 @@
       <%= yield %>
     </div>
 
-    <small>
-      by Adrian Sierociuk
-    </small>
+    <footer>
     <nav>
       <ul>
         <li><%= link_to "About",   about_path %></li>
@@ -26,6 +24,6 @@
 
       </ul>
     </nav>
-
+    </footer>
   </body>
 </html>
