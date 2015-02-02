@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body lang="en">
+
+    <%= render 'layouts/menu' %>
+    <%= render 'layouts/flash_messages' %>
+
+    <div class="container main">
+      <%= yield %>
+    </div>
+
+  </body>
+</html>
